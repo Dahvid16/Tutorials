@@ -44,7 +44,8 @@ const Calculator = () => {
             </div>
         </form>
         <footer>
-            <em>Dahvid</em> @2025
+            <p>Thank you!</p>
+            <em>Dahvid</em> @2025.
         </footer>
     </div>
   )
