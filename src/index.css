@@ -1,0 +1,85 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #beeebc;
+  color: #333;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 25rem;
+  padding: 3rem 1rem;
+  border-radius: 20px;
+}
+
+.cal-container {
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cal_text {
+  width: 18rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  outline: none;
+  cursor: text;
+  color: #272727;
+  background-color: #cacaca;
+}
+
+input {
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  width: 4rem;
+  height: 3rem;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.ard_btn {
+  background-color: #fa941f;
+  transition: all .3s ease-in-out;
+}
+
+.ard_btn:hover {
+  background-color: rgba(250, 148, 31, .7);
+  border: solid 2px #fa941f;
+}
+
+form input:hover {
+  background-color: rgba(76, 175, 80, .7);
+  border: solid 2px #4caf50;
+}
+
+.equal-btn {
+  width: 8.6rem;
+}
+
+footer {
+  display: none;
+}
